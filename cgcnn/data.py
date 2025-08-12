@@ -6,6 +6,9 @@ import json
 import os
 import random
 import warnings
+import lmdb 
+import pickle
+
 
 import numpy as np
 import torch
@@ -300,9 +303,11 @@ class CIFData(Dataset):
     def __init__(self, root_dir, max_num_nbr=12, radius=8, dmin=0, step=0.2,
                  random_seed=123):
         self.root_dir = root_dir
+        self.processed_path = os.path.join(root_dir , "processed")
         self.max_num_nbr, self.radius = max_num_nbr, radius
         assert os.path.exists(root_dir), 'root_dir does not exist!'
         id_prop_file = os.path.join(self.root_dir, 'id_prop.csv')
+        print(id_prop_file)
         assert os.path.exists(id_prop_file), 'id_prop.csv does not exist!'
         with open(id_prop_file) as f:
             reader = csv.reader(f)
@@ -313,15 +318,39 @@ class CIFData(Dataset):
         assert os.path.exists(atom_init_file), 'atom_init.json does not exist!'
         self.ari = AtomCustomJSONInitializer(atom_init_file)
         self.gdf = GaussianDistance(dmin=dmin, dmax=self.radius, step=step)
+        self.lmdb_path = os.path.join(self.processed_path, "dataset.lmdb")
+
+        if(os.path.exists(self.processed_path)):
+            print("Processings skipped because diectory {} exists. If you wish to process raw data, please delete that folder.".format(self.processed_path))
+            self.env = lmdb.open(self.lmdb_path, map_size=2*10**9)  # Adjust map_size as needed
+        else:
+            print("Begin Processing")
+            self.process_raw()
+
+    def process_raw(self):
+        os.mkdir(self.processed_path)
+        self.env = lmdb.open(self.lmdb_path, map_size=2*10**9)  # Adjust map_size as needed
+
+        with self.env.begin(write=True) as txn:
+            for i in range(len(self.id_prop_data)):
+                if (i % 100 == 0):
+                    print(i)
+                crystal = self.get_from_cif(i)
+                txn.put(crystal[2].encode(), pickle.dumps(crystal))
 
     def __len__(self):
         return len(self.id_prop_data)
 
     @functools.lru_cache(maxsize=None)  # Cache loaded structures
-    def __getitem__(self, idx):
+    def get_from_cif(self, idx):
         cif_id, target = self.id_prop_data[idx]
-        crystal = Structure.from_file(os.path.join(self.root_dir,
+        # crystal_CO8401
+        try:
+            crystal = Structure.from_file(os.path.join(self.root_dir,
                                                    cif_id+'.cif'))
+        except:
+            print("Bad {}: {}".format(idx, cif_id))
+            return None
         atom_fea = np.vstack([self.ari.get_atom_fea(crystal[i].specie.number)
                               for i in range(len(crystal))])
         atom_fea = torch.Tensor(atom_fea)
@@ -350,3 +379,12 @@ class CIFData(Dataset):
         nbr_fea_idx = torch.LongTensor(nbr_fea_idx)
         target = torch.Tensor([float(target)])
         return (atom_fea, nbr_fea, nbr_fea_idx), target, cif_id
+
+
+    def __getitem__(self, idx):
+        cif_id, target = self.id_prop_data[idx]
+        with self.env.begin() as txn:
+            item_bytes = txn.get(str(cif_id).encode())
+            if item_bytes is None:
+                return None, None, None
+        return pickle.loads(item_bytes)

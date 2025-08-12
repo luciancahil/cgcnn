@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       Sn6H
+_chemical_formula_sum              "Sn6 H1"
+_cell_length_a       4.756452560424805
+_cell_length_b       4.756452615408935
+_cell_length_c       104.95264434814453
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99999961760149
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sn  Sn1       1.0  0.004999996547348486  0.008333331404009929  0.00027368547917460393  1.0000
+  Sn  Sn2       1.0  0.0016666666147950818  0.0016666684060722985  0.999901671567675  1.0000
+  Sn  Sn3       1.0  0.008333333473982445  0.005000001826828099  0.9995316357195109  1.0000
+  Sn  Sn4       1.0  0.0016666666147950818  0.0016666684060722985  0.9996241446815518  1.0000
+  Sn  Sn5       1.0  0.008333333473982445  0.005000001826828099  0.9992541085494281  1.0000
+  Sn  Sn6       1.0  0.0049999999738821995  0.008333331404009929  0.0  1.0000
+  H   H1        1.0  0.004999996547348486  0.008333331404009929  0.00041660751218000874  1.0000

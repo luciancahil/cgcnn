@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       COCa6In2
+_chemical_formula_sum              "C1 O1 Ca6 In2"
+_cell_length_a       5.81079376
+_cell_length_b       5.81079376
+_cell_length_c       102.8708134
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.8782667100000001  0.8782707400000002  0.5343891701857647  1.0000
+  O   O1        1.0  0.88855542  0.88855374  0.5458520815259807  1.0000
+  Ca  Ca1       1.0  0.64817991  0.11144626000000006  0.5158567508497797  1.0000
+  Ca  Ca2       1.0  0.14658957000000003  0.14658976000000004  0.49452785487641904  1.0000
+  Ca  Ca3       1.0  0.11144458000000003  0.64818064  0.5158566997241981  1.0000
+  Ca  Ca4       1.0  0.13425478000000002  0.63425639  0.47411884870776433  1.0000
+  Ca  Ca5       1.0  0.63425478  0.63425639  0.45414791847401925  1.0000
+  Ca  Ca6       1.0  0.63425478  0.13425639000000006  0.47411884870776433  1.0000
+  In  In1       1.0  0.13425478000000002  0.13425639000000006  0.45414791847401925  1.0000
+  In  In2       1.0  0.6244488  0.6244488000000001  0.4951040689369184  1.0000

@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       CONa6
+_chemical_formula_sum              "C1 O1 Na6"
+_cell_length_a       6.05443916
+_cell_length_b       6.054439161535188
+_cell_length_c       99.66057323
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    60.00000000838783
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.6040401049999999  0.29755291  0.5268816044450274  1.0000
+  O   O1        1.0  0.605278385  0.29610087  0.5387214353945846  1.0000
+  Na  Na1       1.0  0.809642775  0.68319364  0.4736792289477035  1.0000
+  Na  Na2       1.0  0.20353944499999993  0.98347303  0.5201374342382874  1.0000
+  Na  Na3       1.0  0.501129915  0.33503686000000005  0.5003502731052031  1.0000
+  Na  Na4       1.0  0.8570238949999999  0.65610059  0.5090853479876558  1.0000
+  Na  Na5       1.0  0.14297610499999996  0.016526970000000016  0.4860798932899915  1.0000
+  Na  Na6       1.0  0.476309435  0.3498603  0.46127856460541544  1.0000

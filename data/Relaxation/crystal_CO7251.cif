@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       COCa4Ge2
+_chemical_formula_sum              "C1 O1 Ca4 Ge2"
+_cell_length_a       5.163009166717529
+_cell_length_b       5.163009166717529
+_cell_length_c       99.20639038085938
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.008750001587376353  0.005000002092450646  0.00017458349611402748  1.0000
+  O   O1        1.0  0.008750001587376353  0.005000002092450646  0.00029554369104326786  1.0000
+  Ca  Ca1       1.0  0.0012500079188433925  0.007499944153213796  0.0  1.0000
+  Ca  Ca2       1.0  0.006249995670791767  0.002500059851303819  0.9999999855804503  1.0000
+  Ca  Ca3       1.0  0.006249997835395884  0.0024999907643557698  0.9996381792521137  1.0000
+  Ca  Ca4       1.0  0.0012499981781248686  0.007499990331434947  0.9996381792521137  1.0000
+  Ge  Ge1       1.0  0.0012499981781248686  0.0024999907643557698  0.9994541788888371  1.0000
+  Ge  Ge2       1.0  0.006249989176979418  0.007500009091337289  0.9998398390576382  1.0000

@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       COCa2Cu2Sb2
+_chemical_formula_sum              "C1 O1 Ca2 Cu2 Sb2"
+_cell_length_a       4.530703609661287
+_cell_length_b       4.53070361
+_cell_length_c       103.23331024000001
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00000007548539
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.01917914499999995  0.7971190899999999  0.5358559372253499  1.0000
+  O   O1        1.0  0.06527881499999996  0.7579019100000001  0.5466255152054592  1.0000
+  Ca  Ca1       1.0  0.3141541849999999  0.50447622  0.4533744847945408  1.0000
+  Ca  Ca2       1.0  0.3172988049999999  0.49555950000000004  0.4946950868651085  1.0000
+  Cu  Cu1       1.0  0.973055545  0.8347063  0.5179107247380103  1.0000
+  Cu  Cu2       1.0  0.6474875249999998  0.1711428899999999  0.47349475300226496  1.0000
+  Sb  Sb1       1.0  0.9808208549999999  0.8378095600000001  0.47349475300226496  1.0000
+  Sb  Sb2       1.0  0.647537015  0.16219044000000002  0.5114544300597424  1.0000

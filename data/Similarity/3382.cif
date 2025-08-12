@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       COSe6
+_chemical_formula_sum              "C1 O1 Se6"
+_cell_length_a       4.569734481533149
+_cell_length_b       5.1061273
+_cell_length_c       106.55787585
+_cell_angle_alpha    90.0
+_cell_angle_beta     119.99999998890173
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.6685534999999999  0.383958115  0.5691982921578332  1.0000
+  O   O1        1.0  0.56384875  0.5642773749999999  0.5720878559958923  1.0000
+  Se  Se1       1.0  0.14355674  0.499999995  0.4279121440041078  1.0000
+  Se  Se2       1.0  0.36276588  0.8333333350000001  0.4613963607128207  1.0000
+  Se  Se3       1.0  0.9243476  0.16666666499999994  0.45199557422138065  1.0000
+  Se  Se4       1.0  0.14355674  0.499999995  0.4707971437734608  1.0000
+  Se  Se5       1.0  0.56005704  0.5806037549999999  0.5258994006787062  1.0000
+  Se  Se6       1.0  0.0756524  0.7875907050000001  0.5227620713275796  1.0000

@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       COY8
+_chemical_formula_sum              "C1 O1 Y8"
+_cell_length_a       5.76563722
+_cell_length_b       6.38744797
+_cell_length_c       99.50235846
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.7499834749999998  0.64089588  0.5337119165674312  1.0000
+  O   O1        1.0  0.749977625  0.62900403  0.5454840985366176  1.0000
+  Y   Y1        1.0  0.7499979749999999  0.6666666699999999  0.47304709441486653  1.0000
+  Y   Y2        1.0  0.7499979749999999  0.16666666999999996  0.4545159014633824  1.0000
+  Y   Y3        1.0  0.24999797499999996  0.3333333299999999  0.47304709441486653  1.0000
+  Y   Y4        1.0  0.24999797499999996  0.83333333  0.4545159014633824  1.0000
+  Y   Y5        1.0  0.750002025  0.67819895  0.5089400286180069  1.0000
+  Y   Y6        1.0  0.7499996449999999  0.17771018  0.49008755815057975  1.0000
+  Y   Y7        1.0  0.250002785  0.32059157  0.5095346782923702  1.0000
+  Y   Y8        1.0  0.25000180499999997  0.8252166799999999  0.4901444741153632  1.0000

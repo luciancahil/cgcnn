@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       HBi8
+_chemical_formula_sum              "H1 Bi8"
+_cell_length_a       4.85660982131958
+_cell_length_b       6.73501518110103
+_cell_length_c       102.66365814208984
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    93.17719971662054
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  H   H1        1.0  0.0003443107846904899  0.007327844511736809  0.0001461080382906752  1.0000
+  Bi  Bi1       1.0  0.00534431067634387  0.007327844511736809  0.9995454828799544  1.0000
+  Bi  Bi2       1.0  0.0003443108028512629  0.0023278445671342384  0.9993182243199317  1.0000
+  Bi  Bi3       1.0  0.004655689238434782  0.002672155377468332  0.9995454828799544  1.0000
+  Bi  Bi4       1.0  0.009655689408877477  0.007672155599058048  0.9993182243199317  1.0000
+  Bi  Bi5       1.0  0.00534431067634387  0.007327844511736809  0.0  1.0000
+  Bi  Bi6       1.0  0.0003443108028512629  0.0023278445671342384  0.9997727411496864  1.0000
+  Bi  Bi7       1.0  0.004655689238434782  0.002672155377468332  0.0  1.0000
+  Bi  Bi8       1.0  0.009655689408877477  0.007672155599058048  0.9997727411496864  1.0000

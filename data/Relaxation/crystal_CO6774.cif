@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       COAu4Ca2In2
+_chemical_formula_sum              "C1 O1 Au4 Ca2 In2"
+_cell_length_a       5.064404487609863
+_cell_length_b       5.064404487609863
+_cell_length_c       98.64859771728516
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.005000007620640805  0.009999993173788932  0.00017557790101506806  1.0000
+  O   O1        1.0  0.005000007620640805  0.009999993173788932  0.00029722144174172617  1.0000
+  Au  Au1       1.0  2.949999825430186e-09  0.005000006149474627  0.9996438355844234  1.0000
+  Au  Au2       1.0  0.005000002839350725  6.350000064159008e-09  0.9996438355844234  1.0000
+  Au  Au3       1.0  0.005000007620640805  0.009999993173788932  0.0  1.0000
+  Au  Au4       1.0  0.009999996851704378  0.005000040721879824  0.0  1.0000
+  Ca  Ca1       1.0  0.005000002839350725  0.005000006149474627  0.9994623288553216  1.0000
+  Ca  Ca2       1.0  7.650000011009826e-09  0.00999997404862861  0.9998348157500165  1.0000
+  In  In1       1.0  2.949999825430186e-09  6.350000064159008e-09  0.9994623288553216  1.0000
+  In  In2       1.0  0.005000002839350725  0.005000019389970234  0.9998396817695829  1.0000

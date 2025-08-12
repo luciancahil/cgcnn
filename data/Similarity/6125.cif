@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       COAg4Ca2Sn2
+_chemical_formula_sum              "C1 O1 Ag4 Ca2 Sn2"
+_cell_length_a       5.08390767
+_cell_length_b       5.08390767
+_cell_length_c       98.75892472
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.43140763000000004  0.56868236  0.5352071311883697  1.0000
+  O   O1        1.0  0.5047706599999999  0.49487831000000004  0.5456421655463681  1.0000
+  Ag  Ag1       1.0  0.75566948  0.75392288  0.4927444368337329  1.0000
+  Ag  Ag2       1.0  0.24599849000000001  0.24440811  0.4927115483331028  1.0000
+  Ag  Ag3       1.0  0.24433052  0.25559189000000004  0.4543578344536318  1.0000
+  Ag  Ag4       1.0  0.74433052  0.75559189  0.4543578344536318  1.0000
+  Ca  Ca1       1.0  0.25736823  0.74316308  0.5116759710099366  1.0000
+  Ca  Ca2       1.0  0.74433052  0.25559189000000004  0.47255804066381546  1.0000
+  Sn  Sn1       1.0  0.74705361  0.25328024  0.5079926132771196  1.0000
+  Sn  Sn2       1.0  0.24433052  0.75559189  0.47255804066381546  1.0000

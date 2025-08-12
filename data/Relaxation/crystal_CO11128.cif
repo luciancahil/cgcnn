@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       COCs3
+_chemical_formula_sum              "C1 O1 Cs3"
+_cell_length_a       5.700290203094482
+_cell_length_b       5.70028990368667
+_cell_length_c       111.8884048461914
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    60.000001029652104
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.0016666666207876067  0.0016666665710805355  0.00017874936150896834  1.0000
+  O   O1        1.0  0.0016666666207876067  0.0016666665710805355  0.0002859992980434201  1.0000
+  Cs  Cs1       1.0  0.0016666666207876067  0.0016666665710805355  0.0  1.0000
+  Cs  Cs2       1.0  0.008333333732189247  0.008333333232716353  0.9991680518751334  1.0000
+  Cs  Cs3       1.0  0.004999999510324391  0.005000000090555282  0.9995840256712091  1.0000

@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       COGa8
+_chemical_formula_sum              "C1 O1 Ga8"
+_cell_length_a       4.55859402631259
+_cell_length_b       4.66766583
+_cell_length_c       101.93380078
+_cell_angle_alpha    90.0
+_cell_angle_beta     91.09671020370054
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.04127128000000003  0.803598195  0.5358698291532522  1.0000
+  O   O1        1.0  0.061942100000000014  0.707996385  0.5464029414049035  1.0000
+  Ga  Ga1       1.0  0.23801688000000007  0.08289023499999998  0.4535970585950965  1.0000
+  Ga  Ga2       1.0  0.74546482  0.08071798499999996  0.49298590335782044  1.0000
+  Ga  Ga3       1.0  0.5192433000000001  0.5828902349999999  0.46093893989261564  1.0000
+  Ga  Ga4       1.0  0.011983120000000024  0.5870254349999999  0.500409024373224  1.0000
+  Ga  Ga5       1.0  0.61544012  0.9063885649999999  0.5212994895100114  1.0000
+  Ga  Ga6       1.0  0.2692433000000001  0.919282015  0.48051892742842434  1.0000
+  Ga  Ga7       1.0  0.49282900999999996  0.41121263499999994  0.5117373222114777  1.0000
+  Ga  Ga8       1.0  0.9880168800000001  0.41928201499999995  0.47317704613090517  1.0000

@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       COSn8
+_chemical_formula_sum              "C1 O1 Sn8"
+_cell_length_a       4.75570843
+_cell_length_b       6.72558736
+_cell_length_c       108.04566742
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.24986628999999996  0.858236245  0.5415591232524504  1.0000
+  O   O1        1.0  0.24977945999999998  0.9039212849999999  0.5518008254818677  1.0000
+  Sn  Sn1       1.0  0.74990405  0.846078715  0.44819917451813224  1.0000
+  Sn  Sn2       1.0  0.7502326100000001  0.856899045  0.49192146996214003  1.0000
+  Sn  Sn3       1.0  0.24990404999999996  0.09607871499999997  0.44819917451813224  1.0000
+  Sn  Sn4       1.0  0.25042053  0.11282333499999997  0.49354192825955173  1.0000
+  Sn  Sn5       1.0  0.24990404999999996  0.3460787149999999  0.47020703721665863  1.0000
+  Sn  Sn6       1.0  0.24976738999999998  0.314680205  0.5176711200404439  1.0000
+  Sn  Sn7       1.0  0.74970758  0.5208188749999999  0.5084621605366466  1.0000
+  Sn  Sn8       1.0  0.74990405  0.5960787149999999  0.47020703721665863  1.0000

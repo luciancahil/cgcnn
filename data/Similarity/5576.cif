@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       COAu2Na6
+_chemical_formula_sum              "C1 O1 Au2 Na6"
+_cell_length_a       5.369505929713814
+_cell_length_b       5.36950593
+_cell_length_c       99.43970046999999
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    93.47455256084838
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.4207126849999999  0.160887045  0.5326751683888151  1.0000
+  O   O1        1.0  0.370225115  0.21307688500000002  0.5436734076225211  1.0000
+  Au  Au1       1.0  0.24926922499999996  0.332238435  0.4923969568516177  1.0000
+  Au  Au2       1.0  0.744573525  0.8373500349999998  0.45632659237747886  1.0000
+  Na  Na1       1.0  0.743583285  0.32251369499999993  0.5116766022593146  1.0000
+  Na  Na2       1.0  0.24457352499999996  0.837350035  0.47483008012611816  1.0000
+  Na  Na3       1.0  0.25990595499999997  0.839112955  0.5116684192768925  1.0000
+  Na  Na4       1.0  0.744573525  0.337350035  0.47483008012611816  1.0000
+  Na  Na5       1.0  0.24457352499999996  0.33735003499999994  0.45632659237747886  1.0000
+  Na  Na6       1.0  0.7554264749999999  0.8268970149999998  0.49145938956823126  1.0000

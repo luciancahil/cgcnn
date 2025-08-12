@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       HK6
+_chemical_formula_sum              "H1 K6"
+_cell_length_a       5.43741512298584
+_cell_length_b       12.158429705614662
+_cell_length_c       100.7586669921875
+_cell_angle_alpha    71.56505082178614
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  H   H1        1.0  0.002499999986297569  0.00972584243648861  0.00014914593685934807  1.0000
+  K   K1        1.0  0.002499999986297569  0.00027415820864277074  0.999607949794427  1.0000
+  K   K2        1.0  0.002499999986297569  0.003607491676277547  0.9998623423279861  1.0000
+  K   K3        1.0  0.002499999986297569  0.006940824962242035  0.9993535575718675  1.0000
+  K   K4        1.0  0.007500000301453483  0.00027415820864277074  0.999989538442732  1.0000
+  K   K5        1.0  0.007500000301453483  0.003607491676277547  0.9994807536796811  1.0000
+  K   K6        1.0  0.007500000301453483  0.006940824962242035  0.9997351462201725  1.0000

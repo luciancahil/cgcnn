@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       HIn2Sb2
+_chemical_formula_sum              "H1 In2 Sb2"
+_cell_length_a       4.7402143478393555
+_cell_length_b       4.74021424965938
+_cell_length_c       101.24518585205078
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00000068515203
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  H   H1        1.0  0.0033333331490801796  0.006666666848160351  0.0004029889451787055  1.0000
+  In  In1       1.0  0.006666667104985431  0.0033333334240801754  0.9996042546145337  1.0000
+  In  In2       1.0  0.0033333335490801784  0.006666666848160351  0.0  1.0000
+  Sb  Sb1       1.0  0.006666667104985431  0.0033333334240801754  0.9998929493831916  1.0000
+  Sb  Sb2       1.0  0.0033333331490801796  0.006666666848160351  0.00028129902590040746  1.0000

@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       COIn4Na4
+_chemical_formula_sum              "C1 O1 In4 Na4"
+_cell_length_a       5.37778816
+_cell_length_b       5.37778816
+_cell_length_c       100.42136379
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.8053711000000001  0.90082961  0.5364869175912969  1.0000
+  O   O1        1.0  0.89090676  0.81462141  0.545987560423133  1.0000
+  In  In1       1.0  0.11184430000000001  0.09917039000000002  0.493520220881311  1.0000
+  In  In2       1.0  0.60909324  0.10387839000000003  0.4729460127242209  1.0000
+  In  In3       1.0  0.60909324  0.6038783900000001  0.454012439576867  1.0000
+  In  In4       1.0  0.11481825000000001  0.60018528  0.5103409254109166  1.0000
+  Na  Na1       1.0  0.6152689499999999  0.6043683700000001  0.49192702583245274  1.0000
+  Na  Na2       1.0  0.10909324000000002  0.6038783900000001  0.4729460127242209  1.0000
+  Na  Na3       1.0  0.10909324000000002  0.10387839000000003  0.454012439576867  1.0000
+  Na  Na4       1.0  0.60721984  0.10965558000000003  0.5156144314375292  1.0000

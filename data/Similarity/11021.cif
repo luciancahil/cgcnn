@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       COPb8
+_chemical_formula_sum              "C1 O1 Pb8"
+_cell_length_a       7.20987856
+_cell_length_b       5.09815402
+_cell_length_c       98.83951422999999
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.12385577499999996  0.24999998500000004  0.5379588710229691  1.0000
+  O   O1        1.0  0.12385550499999996  0.25000008500000004  0.5495847449995261  1.0000
+  Pb  Pb1       1.0  0.12385526499999996  0.7499999949999999  0.4686515813666743  1.0000
+  Pb  Pb2       1.0  0.12385978499999997  0.7499999949999999  0.501582348531922  1.0000
+  Pb  Pb3       1.0  0.37385526499999994  0.249999995  0.4504152550004738  1.0000
+  Pb  Pb4       1.0  0.371565885  0.25000000499999997  0.4857683577736622  1.0000
+  Pb  Pb5       1.0  0.623855265  0.7499999949999999  0.4686515813666743  1.0000
+  Pb  Pb6       1.0  0.623850335  0.750000015  0.5014946886994387  1.0000
+  Pb  Pb7       1.0  0.873855265  0.249999995  0.4504152550004738  1.0000
+  Pb  Pb8       1.0  0.876144735  0.249999995  0.48576875459612384  1.0000

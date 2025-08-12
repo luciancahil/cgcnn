@@ -15,6 +15,10 @@ from cgcnn.data import CIFData
 from cgcnn.data import collate_pool
 from cgcnn.model import CrystalGraphConvNet
 
+# python predict.py pre-trained/formation-energy-per-atom.pth.tar data/Similarity
+
+
+
 parser = argparse.ArgumentParser(description='Crystal gated neural networks')
 parser.add_argument('modelpath', help='path to the trained model.')
 parser.add_argument('cifpath', help='path to the directory of CIF files.')
@@ -55,8 +59,8 @@ def main():
                              num_workers=args.workers, collate_fn=collate_fn,
                              pin_memory=args.cuda)
 
-    # build model
     structures, _, _ = dataset[0]
+
     orig_atom_fea_len = structures[0].shape[-1]
     nbr_fea_len = structures[1].shape[-1]
     model = CrystalGraphConvNet(orig_atom_fea_len, nbr_fea_len,
@@ -99,10 +103,12 @@ def main():
     else:
         print("=> no model found at '{}'".format(args.modelpath))
 
-    validate(test_loader, model, criterion, normalizer, test=True)
+    file = open("Predictions.csv", mode='w')
+
+    validate(test_loader, model, criterion, normalizer, file, test=True)
 
 
-def validate(val_loader, model, criterion, normalizer, test=False):
+def validate(val_loader, model, criterion, normalizer, file, test=False):
     batch_time = AverageMeter()
     losses = AverageMeter()
     if model_args.task == 'regression':
@@ -123,6 +129,7 @@ def validate(val_loader, model, criterion, normalizer, test=False):
 
     end = time.time()
     for i, (input, target, batch_cif_ids) in enumerate(val_loader):
+        print("I: {}".format(i))
         with torch.no_grad():
             if args.cuda:
                 input_var = (Variable(input[0].cuda(non_blocking=True)),
@@ -146,6 +153,8 @@ def validate(val_loader, model, criterion, normalizer, test=False):
 
         # compute output
         output = model(*input_var)
+        for output_i in range(len(output)):
+            file.write("{}: {}\n".format(batch_cif_ids[output_i], output[output_i].item()))
         loss = criterion(output, target_var)
 
         # measure accuracy and record loss

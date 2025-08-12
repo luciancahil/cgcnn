@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       COCa4Si2
+_chemical_formula_sum              "C1 O1 Ca4 Si2"
+_cell_length_a       5.123908042907715
+_cell_length_b       5.123908042907715
+_cell_length_c       98.98519897460938
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  6.659999976204125e-08  0.0025000014686224537  0.0001749772317157729  1.0000
+  O   O1        1.0  6.659999976204125e-08  0.0025000014686224537  0.0002962077231731188  1.0000
+  Ca  Ca1       1.0  0.00999998042806116  0.007499983685204028  0.0  1.0000
+  Ca  Ca2       1.0  0.005000066553316544  0.0025000014686224537  0.9999999963870572  1.0000
+  Ca  Ca3       1.0  0.005000019659183738  0.0024999871095662844  0.9996405462065333  1.0000
+  Ca  Ca4       1.0  1.9699999742218163e-08  0.0074999873204081215  0.9996405462065333  1.0000
+  Si  Si1       1.0  1.9699999742218163e-08  0.0024999871095662844  0.999457531381251  1.0000
+  Si  Si2       1.0  0.00500002402142865  0.007500012766836777  0.9998406966176804  1.0000

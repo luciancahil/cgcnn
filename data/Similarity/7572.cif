@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       COCa2Ga4
+_chemical_formula_sum              "C1 O1 Ca2 Ga4"
+_cell_length_a       4.5691722364435385
+_cell_length_b       4.56917224
+_cell_length_c       99.96781524
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00000002574795
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.6048739100000001  0.4958614599999999  0.5346538262986134  1.0000
+  O   O1        1.0  0.8119377900000002  0.46953410999999995  0.541033234360003  1.0000
+  Ca  Ca1       1.0  0.15845855000000006  0.50673739  0.5207401853549649  1.0000
+  Ca  Ca2       1.0  0.17487479000000003  0.50199346  0.48087805507733844  1.0000
+  Ga  Ga1       1.0  0.84154145  0.8353267899999998  0.45896676563999705  1.0000
+  Ga  Ga2       1.0  0.4972058100000001  0.16467321  0.4989192060239065  1.0000
+  Ga  Ga3       1.0  0.50820812  0.16866012999999996  0.4653175152463622  1.0000
+  Ga  Ga4       1.0  0.82738993  0.8319728199999997  0.5043314122124467  1.0000

@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       CONa8
+_chemical_formula_sum              "C1 O1 Na8"
+_cell_length_a       6.64182981
+_cell_length_b       7.278446698323352
+_cell_length_c       100.67729784
+_cell_angle_alpha    105.27343842240319
+_cell_angle_beta     90.0
+_cell_angle_gamma    62.85351623679567
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.42156813000000004  0.7711124249999999  0.5391081949887503  1.0000
+  O   O1        1.0  0.39748438  0.8139972249999999  0.5510756209880454  1.0000
+  Na  Na1       1.0  0.04166667000000005  0.19283171499999996  0.46796870336447227  1.0000
+  Na  Na2       1.0  0.54166667  0.19283171499999996  0.4489243790119544  1.0000
+  Na  Na3       1.0  0.45833333000000015  0.692831715  0.47749086554073117  1.0000
+  Na  Na4       1.0  0.95833333  0.692831715  0.4584465411882134  1.0000
+  Na  Na5       1.0  0.051167670000000054  0.19651893499999995  0.5048502862269426  1.0000
+  Na  Na6       1.0  0.5480395300000002  0.18600277499999995  0.48624919795585925  1.0000
+  Na  Na7       1.0  0.4648466200000001  0.6738899449999999  0.5120683807244608  1.0000
+  Na  Na8       1.0  0.9573493700000002  0.6997127249999999  0.4959278283009985  1.0000

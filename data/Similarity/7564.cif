@@ -1,0 +1,36 @@
+data_image0
+_chemical_formula_structural       COCa6Ge3
+_chemical_formula_sum              "C1 O1 Ca6 Ge3"
+_cell_length_a       5.16300898
+_cell_length_b       5.163008982903625
+_cell_length_c       107.9402126
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99999998139629
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.8331778100000001  0.4995558649999999  0.5459010044544234  1.0000
+  O   O1        1.0  0.83330094  0.49964290499999997  0.5570226704601609  1.0000
+  Ca  Ca1       1.0  0.16670288000000003  0.16672790499999998  0.501559471827875  1.0000
+  Ca  Ca2       1.0  0.83336955  0.5000612349999999  0.4625047114741606  1.0000
+  Ca  Ca3       1.0  0.49975210999999997  0.8327916249999999  0.5409496266559091  1.0000
+  Ca  Ca4       1.0  0.50003621  0.8333945749999999  0.48203208989355356  1.0000
+  Ca  Ca5       1.0  0.16670288000000003  0.16672790499999998  0.44297732953983915  1.0000
+  Ca  Ca6       1.0  0.83320311  0.499749195  0.5221651600023692  1.0000
+  Ge  Ge1       1.0  0.50003621  0.8333945749999999  0.45274102050699994  1.0000
+  Ge  Ge2       1.0  0.16663045  0.16660542499999997  0.5305759303980887  1.0000
+  Ge  Ge3       1.0  0.83336955  0.5000612349999999  0.4917957808607143  1.0000

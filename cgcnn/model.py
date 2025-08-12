@@ -164,6 +164,48 @@ class CrystalGraphConvNet(nn.Module):
         if self.classification:
             out = self.logsoftmax(out)
         return out
+    
+
+    def get_last_hidden(self, atom_fea, nbr_fea, nbr_fea_idx, crystal_atom_idx):
+        """
+        Forward pass
+
+        N: Total number of atoms in the batch
+        M: Max number of neighbors
+        N0: Total number of crystals in the batch
+
+        Parameters
+        ----------
+
+        atom_fea: Variable(torch.Tensor) shape (N, orig_atom_fea_len)
+          Atom features from atom type
+        nbr_fea: Variable(torch.Tensor) shape (N, M, nbr_fea_len)
+          Bond features of each atom's M neighbors
+        nbr_fea_idx: torch.LongTensor shape (N, M)
+          Indices of M neighbors of each atom
+        crystal_atom_idx: list of torch.LongTensor of length N0
+          Mapping from the crystal idx to atom idx
+
+        Returns
+        -------
+
+        prediction: nn.Variable shape (N, )
+          Atom hidden features after convolution
+
+        """
+        atom_fea = self.embedding(atom_fea)
+        for conv_func in self.convs:
+            atom_fea = conv_func(atom_fea, nbr_fea, nbr_fea_idx)
+        crys_fea = self.pooling(atom_fea, crystal_atom_idx)
+        crys_fea = self.conv_to_fc(self.conv_to_fc_softplus(crys_fea))
+        crys_fea = self.conv_to_fc_softplus(crys_fea)
+        if self.classification:
+            crys_fea = self.dropout(crys_fea)
+        if hasattr(self, 'fcs') and hasattr(self, 'softpluses'):
+            for fc, softplus in zip(self.fcs, self.softpluses):
+                crys_fea = softplus(fc(crys_fea))
+        return crys_fea
+
 
     def pooling(self, atom_fea, crystal_atom_idx):
         """

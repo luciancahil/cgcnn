@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       COAu4Ca2Na2
+_chemical_formula_sum              "C1 O1 Au4 Ca2 Na2"
+_cell_length_a       5.156439304351807
+_cell_length_b       5.156439304351807
+_cell_length_c       99.16922760009766
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.002500050145533449  0.007500016963220363  0.00016364869076431404  1.0000
+  O   O1        1.0  0.002500050145533449  0.007500016963220363  0.00028465361340463595  1.0000
+  Au  Au1       1.0  0.009999976621387949  0.009999923882244572  0.9998139316261254  1.0000
+  Au  Au2       1.0  0.005000032019162116  0.005000065252046984  0.9998139325276849  1.0000
+  Au  Au3       1.0  0.005000023710940899  0.005000007816952484  0.9994230962321714  1.0000
+  Au  Au4       1.0  2.360000017829911e-08  7.54999987603585e-09  0.9994230962321714  1.0000
+  Ca  Ca1       1.0  3.7000000396314004e-08  0.005000041411064361  0.9999779845161013  1.0000
+  Ca  Ca2       1.0  0.005000023710940899  7.54999987603585e-09  0.999606931142447  1.0000
+  Na  Na1       1.0  0.005000063445911937  0.009999992515376364  0.0  1.0000
+  Na  Na2       1.0  2.360000017829911e-08  0.005000007816952484  0.999606931142447  1.0000

@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       CONa6Sb2
+_chemical_formula_sum              "C1 O1 Na6 Sb2"
+_cell_length_a       5.441994988705817
+_cell_length_b       5.44199499
+_cell_length_c       108.71217519999999
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99999994708078
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.61513877  0.15850025999999998  0.5498599154319594  1.0000
+  O   O1        1.0  0.7133032499999999  0.07227371999999996  0.5568155504097181  1.0000
+  Na  Na1       1.0  0.83183083  0.9277262800000001  0.4578910214306994  1.0000
+  Na  Na2       1.0  0.50461718  0.25430831  0.5074929635334419  1.0000
+  Na  Na3       1.0  0.16937670999999999  0.59282192  0.5243260308443946  1.0000
+  Na  Na4       1.0  0.16516416  0.5943929499999999  0.47279385305711114  1.0000
+  Na  Na5       1.0  0.83183083  0.9277262800000001  0.4876966846835229  1.0000
+  Na  Na6       1.0  0.49849750000000004  0.26105961  0.44318444959028197  1.0000
+  Sb  Sb1       1.0  0.49849750000000004  0.26105961  0.47279385305711114  1.0000
+  Sb  Sb2       1.0  0.83483584  0.9208605099999999  0.5157440363086296  1.0000

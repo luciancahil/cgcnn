@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       COCa4In2Na2
+_chemical_formula_sum              "C1 O1 Ca4 In2 Na2"
+_cell_length_a       5.70475378
+_cell_length_b       5.70475378
+_cell_length_c       102.27096068
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.24998259500000003  0.25000139500000007  0.5277173062604019  1.0000
+  O   O1        1.0  0.249946095  0.25000129500000007  0.5395007820881906  1.0000
+  Ca  Ca1       1.0  0.749988105  0.750001055  0.46049921791180937  1.0000
+  Ca  Ca2       1.0  0.24998810500000004  0.2500010550000001  0.46049921791180937  1.0000
+  Ca  Ca3       1.0  0.25004090500000004  0.2500009650000001  0.5029575677408371  1.0000
+  Ca  Ca4       1.0  0.7500089450000001  0.750002175  0.5000644229861871  1.0000
+  In  In1       1.0  0.24998810500000004  0.750001055  0.4802207012056925  1.0000
+  In  In2       1.0  0.750053905  0.24999782500000006  0.5168282801636426  1.0000
+  Na  Na1       1.0  0.749988105  0.2500010550000001  0.4802207012056925  1.0000
+  Na  Na2       1.0  0.24995586500000003  0.7500014150000001  0.526427483387734  1.0000

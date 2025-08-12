@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       COCa8
+_chemical_formula_sum              "C1 O1 Ca8"
+_cell_length_a       6.85980053
+_cell_length_b       7.660372068416307
+_cell_length_c       101.68406147
+_cell_angle_alpha    104.98144507106394
+_cell_angle_beta     90.0
+_cell_angle_gamma    63.400844347892715
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.8792826900000001  0.6175321300000001  0.5285114845474567  1.0000
+  O   O1        1.0  0.8218522700000003  0.53309487  0.5366774541158387  1.0000
+  Ca  Ca1       1.0  0.041666670000000024  0.25255278000000003  0.4827971204954363  1.0000
+  Ca  Ca2       1.0  0.5416666700000001  0.25255278000000003  0.4633225458841613  1.0000
+  Ca  Ca3       1.0  0.45833333000000004  0.7525527799999999  0.4925344078010739  1.0000
+  Ca  Ca4       1.0  0.9583333300000001  0.7525527799999999  0.4730598331897987  1.0000
+  Ca  Ca5       1.0  0.10460906  0.24365586000000003  0.5227665940947482  1.0000
+  Ca  Ca6       1.0  0.5552933400000001  0.24954456  0.5001004825731302  1.0000
+  Ca  Ca7       1.0  0.4837889400000002  0.7128947899999999  0.5310067851618888  1.0000
+  Ca  Ca8       1.0  0.9492660700000002  0.7563441399999999  0.5124315713336178  1.0000

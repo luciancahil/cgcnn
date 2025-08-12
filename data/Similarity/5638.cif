@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       COAu4Ca4
+_chemical_formula_sum              "C1 O1 Au4 Ca4"
+_cell_length_a       4.72266729
+_cell_length_b       5.964720177199157
+_cell_length_c       100.61345597
+_cell_angle_alpha    91.54284552493068
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.24999997  0.37203741999999995  0.5337360350271102  1.0000
+  O   O1        1.0  0.24999992999999998  0.37638055000000004  0.5454104638541805  1.0000
+  Au  Au1       1.0  0.74999996  0.8863675799999999  0.45458953614581965  1.0000
+  Au  Au2       1.0  0.24999996  0.60307416  0.4607464723409852  1.0000
+  Au  Au3       1.0  0.75000006  0.14040488  0.4931113022848323  1.0000
+  Au  Au4       1.0  0.25000006999999996  0.84850254  0.5001769075060436  1.0000
+  Ca  Ca1       1.0  0.74999996  0.6258093200000001  0.4819857881601766  1.0000
+  Ca  Ca2       1.0  0.24999996  0.11363242000000003  0.47138372150554614  1.0000
+  Ca  Ca3       1.0  0.75000007  0.86179564  0.5188024941852577  1.0000
+  Ca  Ca4       1.0  0.25000004000000003  0.3584410699999999  0.5081756114317781  1.0000

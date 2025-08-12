@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       HCa8
+_chemical_formula_sum              "H1 Ca8"
+_cell_length_a       6.859800338745117
+_cell_length_b       7.660371870770666
+_cell_length_c       101.6840591430664
+_cell_angle_alpha    104.98144527813085
+_cell_angle_beta     90.0
+_cell_angle_gamma    63.4008444493783
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  H   H1        1.0  0.006591926536461971  0.004775117918336756  0.0001430163860133768  1.0000
+  Ca  Ca1       1.0  0.0004166666863165663  0.0025167164981826384  0.9996729670002912  1.0000
+  Ca  Ca2       1.0  0.0054166667351920605  0.0025167164981826384  0.9994782212288539  1.0000
+  Ca  Ca3       1.0  0.004583333428927217  0.00751671674815984  0.9997703398791545  1.0000
+  Ca  Ca4       1.0  0.00958333388509849  0.00751671674815984  0.9995755941077172  1.0000
+  Ca  Ca5       1.0  0.0007457453074366689  0.0024542608305031673  5.302553871601844e-05  1.0000
+  Ca  Ca6       1.0  0.0055599692398773  0.0024486283896363197  0.9998508525633302  1.0000
+  Ca  Ca7       1.0  0.004615563793212281  0.007131465519435536  0.0001388822586849719  1.0000
+  Ca  Ca8       1.0  0.009521551227376728  0.007551372110318084  0.9999568225539229  1.0000

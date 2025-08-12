@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       COAs2Ca2Na2
+_chemical_formula_sum              "C1 O1 As2 Ca2 Na2"
+_cell_length_a       4.98236314
+_cell_length_b       4.98236314
+_cell_length_c       98.18450208
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.250000635  0.25034494  0.5333438545427537  1.0000
+  O   O1        1.0  0.24999889500000003  0.25031322  0.5451696246476222  1.0000
+  As  As1       1.0  0.250000415  0.24983358  0.4922216149605302  1.0000
+  As  As2       1.0  0.7500003749999999  0.75016642  0.4548303753523778  1.0000
+  Ca  Ca1       1.0  0.7500003749999999  0.25016642  0.4727714082311179  1.0000
+  Ca  Ca2       1.0  0.250001195  0.74981266  0.5076603215608666  1.0000
+  Na  Na1       1.0  0.250000375  0.75016642  0.4727714082311179  1.0000
+  Na  Na2       1.0  0.7500011050000001  0.25026687  0.5105273646378903  1.0000

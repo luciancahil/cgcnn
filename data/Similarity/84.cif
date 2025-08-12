@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       In2Sb2CO
+_chemical_formula_sum              "In2 Sb2 C1 O1"
+_cell_length_a       4.74021448
+_cell_length_b       4.740214480808138
+_cell_length_c       101.24518956
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99999999436038
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  In  In1       1.0  0.833836765  0.50021609  0.4644360986913475  1.0000
+  In  In2       1.0  0.49431146499999995  0.8308315900000001  0.5029724012103677  1.0000
+  Sb  Sb1       1.0  0.830489445  0.49950538  0.4951497986625769  1.0000
+  Sb  Sb2       1.0  0.5005034249999999  0.8335494299999999  0.45472942816513257  1.0000
+  C   C1        1.0  0.16616323499999996  0.16645057  0.5339116821090469  1.0000
+  O   O1        1.0  0.17070327499999996  0.16828542  0.5452705718348675  1.0000

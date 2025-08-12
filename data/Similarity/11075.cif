@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       COSr8
+_chemical_formula_sum              "C1 O1 Sr8"
+_cell_length_a       8.70281734
+_cell_length_b       6.15382116
+_cell_length_c       104.81126938
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.125  0.7499999949999999  0.5383683729385761  1.0000
+  O   O1        1.0  0.125  0.7500000050000002  0.5494767200545232  1.0000
+  Sr  Sr1       1.0  0.125  0.7499999949999999  0.4712815853177917  1.0000
+  Sr  Sr2       1.0  0.125  0.7499999949999999  0.5116003887011773  1.0000
+  Sr  Sr3       1.0  0.375  0.249999995  0.45052327994547686  1.0000
+  Sr  Sr4       1.0  0.3751525  0.249999995  0.49103907798618124  1.0000
+  Sr  Sr5       1.0  0.625  0.7499999949999999  0.4712815853177917  1.0000
+  Sr  Sr6       1.0  0.625  0.7499999949999999  0.5125737871566959  1.0000
+  Sr  Sr7       1.0  0.8750000000000001  0.249999995  0.45052327994547686  1.0000
+  Sr  Sr8       1.0  0.8748475  0.249999995  0.4910390746648523  1.0000

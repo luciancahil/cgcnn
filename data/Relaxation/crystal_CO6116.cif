@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       COCa4Pb2
+_chemical_formula_sum              "C1 O1 Ca4 Pb2"
+_cell_length_a       5.486143589019775
+_cell_length_b       5.486143589019775
+_cell_length_c       101.03431701660156
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.005000027310837453  0.005000001167942328  0.0  1.0000
+  O   O1        1.0  0.005000027310837453  0.005000001167942328  0.00011877117664959823  1.0000
+  Ca  Ca1       1.0  1.1900001001473279e-08  7.4500003657642615e-09  0.9994364787705857  1.0000
+  Ca  Ca2       1.0  0.00500001203252212  0.005000007618786579  0.9994364787705857  1.0000
+  Ca  Ca3       1.0  0.005000027310837453  0.005000001167942328  0.999828568012961  1.0000
+  Ca  Ca4       1.0  0.009999988755159915  3.53500005751116e-08  0.9998285662431274  1.0000
+  Pb  Pb1       1.0  0.004999990303362535  0.009999992829377337  1.2526292648743428e-05  1.0000
+  Pb  Pb2       1.0  1.1900001001473279e-08  0.005000007618786579  0.9996284573464427  1.0000

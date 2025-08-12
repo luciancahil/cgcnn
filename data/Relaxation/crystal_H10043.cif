@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       HAg4Ca2Sn2
+_chemical_formula_sum              "H1 Ag4 Ca2 Sn2"
+_cell_length_a       5.083907604217529
+_cell_length_b       5.083907604217529
+_cell_length_c       98.75892639160156
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  H   H1        1.0  1.1095000535966396e-07  0.0049999133290038284  0.0001247534672946797  1.0000
+  Ag  Ag1       1.0  0.005000007855200194  1.3400000574251796e-08  0.9996348635654404  1.0000
+  Ag  Ag2       1.0  7.650000192246703e-09  0.005000013350909285  0.9996348635654404  1.0000
+  Ag  Ag3       1.0  1.1095000535966396e-07  0.0049999133290038284  0.0  1.0000
+  Ag  Ag4       1.0  0.00499995326448989  1.46500004567667e-07  6.035367834907873e-10  1.0000
+  Ca  Ca1       1.0  0.005000007855200194  0.005000013350909285  0.9994528616165477  1.0000
+  Ca  Ca2       1.0  0.0099999922620416  0.009999986399951904  0.9998166280226087  1.0000
+  Sn  Sn1       1.0  7.650000192246703e-09  1.3400000574251796e-08  0.9994528616165477  1.0000
+  Sn  Sn2       1.0  0.005000100183112924  0.005000140484979591  0.9998679401164043  1.0000

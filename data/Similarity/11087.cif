@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       COSr6
+_chemical_formula_sum              "C1 O1 Sr6"
+_cell_length_a       6.15382116
+_cell_length_b       7.536860906643336
+_cell_length_c       103.13934114
+_cell_angle_alpha    94.34775314519605
+_cell_angle_beta     90.0
+_cell_angle_gamma    114.09484254710524
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.30050063500000007  0.513293315  0.5373948895872624  1.0000
+  O   O1        1.0  0.3097033350000001  0.531007285  0.5486631825876095  1.0000
+  Sr  Sr1       1.0  0.20756814500000015  0.3277101050000001  0.4910217275354884  1.0000
+  Sr  Sr2       1.0  0.793828265  0.5000000050000001  0.46472458948884315  1.0000
+  Sr  Sr3       1.0  0.6196964850000001  0.15209688500000004  0.5170924023318925  1.0000
+  Sr  Sr4       1.0  0.5021616050000001  0.9166666649999999  0.4781123615652957  1.0000
+  Sr  Sr5       1.0  0.08549493500000009  0.08333333500000004  0.4513368174123906  1.0000
+  Sr  Sr6       1.0  0.9145050650000002  0.7416166350000001  0.5034849401463058  1.0000

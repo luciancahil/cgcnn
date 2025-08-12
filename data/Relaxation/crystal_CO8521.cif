@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       COCa4Rh2Zn2
+_chemical_formula_sum              "C1 O1 Ca4 Rh2 Zn2"
+_cell_length_a       5.088432312011719
+_cell_length_b       5.088432312011719
+_cell_length_c       98.78451538085938
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.005000011171992958  0.009999996720148856  0.0001753363232942155  1.0000
+  O   O1        1.0  0.005000011171992958  0.009999996720148856  0.00029681309799346365  1.0000
+  Ca  Ca1       1.0  0.005000011171992958  0.009999996720148856  0.0  1.0000
+  Ca  Ca2       1.0  0.004999999824293689  1.899999932706113e-09  0.9996390113579563  1.0000
+  Ca  Ca3       1.0  1.4999999870653444e-10  0.005000001654567764  0.9996390113579563  1.0000
+  Ca  Ca4       1.0  0.009999987934833294  0.004999998726129243  0.9999999987932391  1.0000
+  Rh  Rh1       1.0  0.004999999824293689  0.005000001654567764  0.9994568945469198  1.0000
+  Rh  Rh2       1.0  0.009999999648587377  0.009999997452258486  0.9998408816379766  1.0000
+  Zn  Zn1       1.0  1.4999999870653444e-10  1.899999932706113e-09  0.9994568945469198  1.0000
+  Zn  Zn2       1.0  0.005000013002267033  0.005000000922458134  0.9998129264186141  1.0000
