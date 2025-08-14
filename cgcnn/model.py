@@ -81,7 +81,7 @@ class CrystalGraphConvNet(nn.Module):
     """
     def __init__(self, orig_atom_fea_len, nbr_fea_len,
                  atom_fea_len=64, n_conv=3, h_fea_len=128, n_h=1,
-                 classification=False):
+                 classification=False, append_dim=0):
         """
         Initialize CrystalGraphConvNet.
 
@@ -100,8 +100,11 @@ class CrystalGraphConvNet(nn.Module):
           Number of hidden features after pooling
         n_h: int
           Number of hidden layers after pooling
+        append_dim: int
+          dimension of data we append after the CGCNNN stuff.
         """
         super(CrystalGraphConvNet, self).__init__()
+        self.append_dim = append_dim
         self.classification = classification
         self.embedding = nn.Linear(orig_atom_fea_len, atom_fea_len)
         self.convs = nn.ModuleList([ConvLayer(atom_fea_len=atom_fea_len,
@@ -121,8 +124,18 @@ class CrystalGraphConvNet(nn.Module):
         if self.classification:
             self.logsoftmax = nn.LogSoftmax(dim=1)
             self.dropout = nn.Dropout()
+        
+        if(self.append_dim > 0):
+            post_convs = [nn.Linear(h_fea_len + append_dim, h_fea_len), nn.Softplus()]
 
-    def forward(self, atom_fea, nbr_fea, nbr_fea_idx, crystal_atom_idx):
+            for i in range(2):
+              post_convs.append(nn.Linear(h_fea_len, h_fea_len))
+              post_convs.append(nn.Softplus())
+              
+
+            self.post_convs = nn.ModuleList(post_convs)
+
+    def forward(self, atom_fea, nbr_fea, nbr_fea_idx, crystal_atom_idx, appends = None):
         """
         Forward pass
 
@@ -160,6 +173,7 @@ class CrystalGraphConvNet(nn.Module):
         if hasattr(self, 'fcs') and hasattr(self, 'softpluses'):
             for fc, softplus in zip(self.fcs, self.softpluses):
                 crys_fea = softplus(fc(crys_fea))
+        breakpoint()
         out = self.fc_out(crys_fea)
         if self.classification:
             out = self.logsoftmax(out)

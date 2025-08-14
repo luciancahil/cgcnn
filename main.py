@@ -77,7 +77,8 @@ parser.add_argument('--n-conv', default=3, type=int, metavar='N',
                     help='number of conv layers')
 parser.add_argument('--n-h', default=1, type=int, metavar='N',
                     help='number of hidden layers after pooling')
-
+parser.add_argument('--append_dim', default=0, type=int, metavar='a',
+                    help='How many numbers do we append to the end?')
 args = parser.parse_args(sys.argv[1:])
 
 args.cuda = not args.disable_cuda and torch.cuda.is_available()
@@ -133,7 +134,8 @@ def main():
                                 h_fea_len=args.h_fea_len,
                                 n_h=args.n_h,
                                 classification=True if args.task ==
-                                                       'classification' else False)
+                                                       'classification' else False,
+                                append_dim=args.append_dim)
     if args.cuda:
         model.cuda()
 
