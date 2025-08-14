@@ -234,7 +234,7 @@ def train(train_loader, model, criterion, optimizer, epoch, normalizer):
                          Variable(input[1].cuda(non_blocking=True)),
                          input[2].cuda(non_blocking=True),
                          [crys_idx.cuda(non_blocking=True) for crys_idx in input[3]],
-                         similarities)
+                         similarities.cuda(non_blocking=True))
         else:
             input_var = (Variable(input[0]),
                          Variable(input[1]),
@@ -333,7 +333,7 @@ def validate(val_loader, model, criterion, normalizer, test=False):
                              Variable(input[1].cuda(non_blocking=True)),
                              input[2].cuda(non_blocking=True),
                              [crys_idx.cuda(non_blocking=True) for crys_idx in input[3]],
-                             similarities)
+                             similarities.cuda(non_blocking=True))
         else:
             with torch.no_grad():
                 input_var = (Variable(input[0]),

@@ -173,7 +173,12 @@ class CrystalGraphConvNet(nn.Module):
         if hasattr(self, 'fcs') and hasattr(self, 'softpluses'):
             for fc, softplus in zip(self.fcs, self.softpluses):
                 crys_fea = softplus(fc(crys_fea))
-        breakpoint()
+
+        if(self.append_dim > 0):
+            crys_fea =  torch.cat((crys_fea, appends), dim=1)
+            for layer in  self.post_convs:
+                crys_fea = layer(crys_fea)
+
         out = self.fc_out(crys_fea)
         if self.classification:
             out = self.logsoftmax(out)
