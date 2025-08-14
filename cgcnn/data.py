@@ -135,7 +135,8 @@ def collate_pool(dataset_list):
     crystal_atom_idx, batch_target = [], []
     batch_cif_ids = []
     base_idx = 0
-    for i, ((atom_fea, nbr_fea, nbr_fea_idx), target, cif_id)\
+    batch_similarity = []
+    for i, ((atom_fea, nbr_fea, nbr_fea_idx), target, cif_id, similarities)\
             in enumerate(dataset_list):
         n_i = atom_fea.shape[0]  # number of atoms for this crystal
         batch_atom_fea.append(atom_fea)
@@ -146,12 +147,15 @@ def collate_pool(dataset_list):
         batch_target.append(target)
         batch_cif_ids.append(cif_id)
         base_idx += n_i
+        batch_similarity.append(similarities)
+    
     return (torch.cat(batch_atom_fea, dim=0),
             torch.cat(batch_nbr_fea, dim=0),
             torch.cat(batch_nbr_fea_idx, dim=0),
             crystal_atom_idx),\
         torch.stack(batch_target, dim=0),\
-        batch_cif_ids
+        batch_cif_ids,\
+        torch.tensor(batch_similarity)
 
 
 class GaussianDistance(object):
@@ -307,11 +311,16 @@ class CIFData(Dataset):
         self.max_num_nbr, self.radius = max_num_nbr, radius
         assert os.path.exists(root_dir), 'root_dir does not exist!'
         id_prop_file = os.path.join(self.root_dir, 'id_prop.csv')
-        print(id_prop_file)
+        similarity_file = os.path.join(self.root_dir, "Similarities.csv")
         assert os.path.exists(id_prop_file), 'id_prop.csv does not exist!'
         with open(id_prop_file) as f:
             reader = csv.reader(f)
             self.id_prop_data = [row for row in reader]
+
+        with open(similarity_file) as f:
+            reader = csv.reader(f)
+            self.similarity_data = [row for row in reader]
+        
         random.seed(random_seed)
         random.shuffle(self.id_prop_data)
         atom_init_file = os.path.join(self.root_dir, 'atom_init.json')
@@ -378,7 +387,9 @@ class CIFData(Dataset):
         nbr_fea = torch.Tensor(nbr_fea)
         nbr_fea_idx = torch.LongTensor(nbr_fea_idx)
         target = torch.Tensor([float(target)])
-        return (atom_fea, nbr_fea, nbr_fea_idx), target, cif_id
+        similarity = [float(n) for n in self.similarity_data[idx][1:]]
+
+        return (atom_fea, nbr_fea, nbr_fea_idx), target, cif_id, similarity
 
 
     def __getitem__(self, idx):

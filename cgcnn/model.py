@@ -135,7 +135,7 @@ class CrystalGraphConvNet(nn.Module):
 
             self.post_convs = nn.ModuleList(post_convs)
 
-    def forward(self, atom_fea, nbr_fea, nbr_fea_idx, crystal_atom_idx, appends = None):
+    def forward(self, atom_fea, nbr_fea, nbr_fea_idx, crystal_atom_idx, appends):
         """
         Forward pass
 

@@ -17,7 +17,7 @@ from torch.optim.lr_scheduler import MultiStepLR
 from cgcnn.data import CIFData
 from cgcnn.data import collate_pool, get_train_val_test_loader
 from cgcnn.model import CrystalGraphConvNet
-
+# python main.py data/Similarity append_dim=15
 parser = argparse.ArgumentParser(description='Crystal Graph Convolutional Neural Networks')
 parser.add_argument('data_options', metavar='OPTIONS', nargs='+',
                     help='dataset options, started with the path to root dir, '
@@ -93,7 +93,7 @@ def main():
     global args, best_mae_error
 
     # load data
-    dataset = CIFData(*args.data_options)
+    dataset = CIFData(args.data_options[0])
     collate_fn = collate_pool
     train_loader, val_loader, test_loader = get_train_val_test_loader(
         dataset=dataset,
@@ -121,11 +121,11 @@ def main():
         else:
             sample_data_list = [dataset[i] for i in
                                 sample(range(len(dataset)), 500)]
-        _, sample_target, _ = collate_pool(sample_data_list)
+        _, sample_target, _, _ = collate_pool(sample_data_list)
         normalizer = Normalizer(sample_target)
 
     # build model
-    structures, _, _ = dataset[0]
+    structures, _, _,_ = dataset[0]
     orig_atom_fea_len = structures[0].shape[-1]
     nbr_fea_len = structures[1].shape[-1]
     model = CrystalGraphConvNet(orig_atom_fea_len, nbr_fea_len,
@@ -225,7 +225,7 @@ def train(train_loader, model, criterion, optimizer, epoch, normalizer):
     model.train()
 
     end = time.time()
-    for i, (input, target, _) in enumerate(train_loader):
+    for i, (input, target, _, similarities) in enumerate(train_loader):
         # measure data loading time
         data_time.update(time.time() - end)
 
@@ -233,12 +233,14 @@ def train(train_loader, model, criterion, optimizer, epoch, normalizer):
             input_var = (Variable(input[0].cuda(non_blocking=True)),
                          Variable(input[1].cuda(non_blocking=True)),
                          input[2].cuda(non_blocking=True),
-                         [crys_idx.cuda(non_blocking=True) for crys_idx in input[3]])
+                         [crys_idx.cuda(non_blocking=True) for crys_idx in input[3]],
+                         similarities)
         else:
             input_var = (Variable(input[0]),
                          Variable(input[1]),
                          input[2],
-                         input[3])
+                         input[3],
+                         similarities)
         # normalize target
         if args.task == 'regression':
             target_normed = normalizer.norm(target)
@@ -324,19 +326,21 @@ def validate(val_loader, model, criterion, normalizer, test=False):
     model.eval()
 
     end = time.time()
-    for i, (input, target, batch_cif_ids) in enumerate(val_loader):
+    for i, (input, target, batch_cif_ids, similarities) in enumerate(val_loader):
         if args.cuda:
             with torch.no_grad():
                 input_var = (Variable(input[0].cuda(non_blocking=True)),
                              Variable(input[1].cuda(non_blocking=True)),
                              input[2].cuda(non_blocking=True),
-                             [crys_idx.cuda(non_blocking=True) for crys_idx in input[3]])
+                             [crys_idx.cuda(non_blocking=True) for crys_idx in input[3]],
+                             similarities)
         else:
             with torch.no_grad():
                 input_var = (Variable(input[0]),
                              Variable(input[1]),
                              input[2],
-                             input[3])
+                             input[3],
+                             similarities)
         if args.task == 'regression':
             target_normed = normalizer.norm(target)
         else:
